@@ -6,7 +6,7 @@ class Countdown extends React.Component {
     super(props);
 
     this.state = {
-      countdown: moment('2017-05-09T06:00:00+09:00').diff(moment()),
+      countdown: moment('2018-05-09T06:00:00+09:00').diff(moment()),
       dots: 0
     };
   }
