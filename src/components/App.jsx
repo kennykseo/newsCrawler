@@ -249,7 +249,7 @@ class App extends React.Component {
       </div>
 
       <div id="shadow">
-        <a className="copyright" href="https://www.youtube.com/watch?v=rJ1INwFKQGU" target="_blank">사진 - SBS대선토론 발췌</a>
+        <a className="copyright" href="https://www.youtube.com/watch?v=rJ1INwFKQGU" target="_blank">사진 - SBS 대선토론 발췌</a>
         <input type="checkbox" className="toggle-option" name="setup" id="setup"
                checked={this.state.setup}
                onChange={({ target }) => this.setState({ setup: target.checked })} />
